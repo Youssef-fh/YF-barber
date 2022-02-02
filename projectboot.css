@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,0.5),#5e5d1f),url(barbershop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+.navbar-brand{
+    margin-left: 1%;
+    margin-top: 1% auto;
+}
+.navbar-brand span{
+    color: #5e5d1f;
+    font-size: xx-large;
+    font-family:'Moo Lah Lah', cursive;
+}
+.navbar-brand h2{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+.navbar-nav .nav-item{
+    margin: 0px 1%;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-text{
+    color: white;
+    padding-top: 11%;
+}
+.header-text h1{
+    font-size: 55px;
+    font-family: 'Kaushan Script', cursive;
+}
+.header-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.header-btn{
+    margin: 3% auto 0;
+}
+.header-btn a{
+    width: 9%;
+    text-decoration: none;
+    padding: 1% 1%;
+    color: white;
+    border: 2px solid white;
+    transition: .5s;
+}
+.header-btn a:hover{
+    background-color: #5e5d1f;
+    color: white;
+    font-size: x-large;
+    transform: translate3d(-7px);
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #5e5d1f;
+    font-weight: bold;
+}
+.title-text h3{
+    margin-top: 2%;
+    text-decoration: underline;
+}
+.features{
+    margin-bottom: 6%;
+}
+.features-img img{
+    width: 40%;
+    border-radius: 10px;
+}
+.features h2{
+    margin-bottom: 4%;
+    font-weight: 900;
+    color: #5e5d1f;
+    margin-top: 4%;
+    text-decoration: underline;
+}
+.features-desc p{
+    margin-top: 20px;
+    font-size: x-large;
+}
+#services{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+#img{
+    border-radius: 7%;
+    width: 80%;
+}
+.social-media .fab{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 1px solid #5e5d1f;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 40px 20px 0;
+    color: #5e5d1f;
+    transition: .5s;
+}
+.social-media .fab:hover{
+    font-size: xx-large;
+    background: #5e5d1f;
+    color: white;
+    transform: translateY(-7px);
+}
+.social-media p{
+    font-size: 120%;
+    margin-top: 2%;
+}
+#rv{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+#af{
+    color: #5e5d1f;
+    text-align: center;
+    margin-top: 3%;
+}
+#aff{
+    color: #5e5d1f;
+    text-align: center;
+    margin-top: 4%;
+}
